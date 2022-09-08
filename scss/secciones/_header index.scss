@@ -1,0 +1,28 @@
+header {
+    background-color: blueviolet;
+    height: 20vh;
+    border: solid black 4px;
+  
+    h1 {
+      color: red;
+      text-align: center;
+    }
+    ul {
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+      align-content: center;
+      flex-wrap: wrap;
+      flex-direction: row;
+    }
+    li {
+      list-style: none;
+      color: rgb(0, 0, 0);
+      text-align: center;
+    }
+    li:hover {
+        color: aqua;
+        transition: 0.5seg;
+        
+    }
+  }

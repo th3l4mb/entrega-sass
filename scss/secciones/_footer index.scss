@@ -1,0 +1,17 @@
+footer {
+    border: solid black 4px;
+    background-color: wheat;
+    form {
+      background-color: blue;
+      input {
+        padding: 15px;
+        &:focus {
+          background-color: aqua;
+          &::placeholder {
+            color: white;
+          }
+        }
+      }
+    }
+  }
+  

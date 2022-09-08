@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.main-index {
+  border: solid black 4px;
+  background: #2d6703;
+  background: linear-gradient(138deg, #2d6703 17%, #423dbd 35%, #423dbd 62%, #fd2d2d 74%, #4832f0 100%);
+  text-align: center; }
+  .main-index .cards-container {
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap; }
+
+.cards {
+  max-width: 350px;
+  margin: 0 auto; }
+  .cards h2 {
+    font-family: sans-serif; }
+    .cards h2 h2:hover {
+      color: aqua;
+      transition: 0.5s; }
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row; }
+
+.grids img {
+  width: 400px;
+  height: 600px;
+  padding: 20px; }
+
+.grids p {
+  color: cadetblue;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 30px; }
+
+@media (max-width: 550px) {
+  .main-index {
+    display: flex;
+    flex-direction: column;
+    background-color: chartreuse;
+    border: dotted red 4px; }
+  .grids {
+    display: flex;
+    flex-direction: column;
+    padding: 20px; }
+    .grids img {
+      width: 100px;
+      height: 100px; } }
+
+header {
+  background-color: blueviolet;
+  height: 20vh;
+  border: solid black 4px; }
+  header h1 {
+    color: red;
+    text-align: center; }
+  header ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row; }
+  header li {
+    list-style: none;
+    color: black;
+    text-align: center; }
+  header li:hover {
+    color: aqua;
+    transition: 0.5seg; }
+
+footer {
+  border: solid black 4px;
+  background-color: wheat; }
+  footer form {
+    background-color: blue; }
+    footer form input {
+      padding: 15px; }
+      footer form input:focus {
+        background-color: aqua; }
+        footer form input:focus::placeholder {
+          color: white; }
